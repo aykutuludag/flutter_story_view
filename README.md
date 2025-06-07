@@ -1,8 +1,8 @@
-# story_view [![Pub](https://img.shields.io/pub/v/story_view.svg)](https://pub.dev/packages/story_view)
+# flutter_story_view [![Pub](https://img.shields.io/pub/v/flutter_story_view.svg)](https://pub.dev/packages/flutter_story_view)
 
 Story view for apps with stories.
 
-![story_view](assets/story_view.png)
+![flutter_story_view](assets/flutter_story_view.png)
 
 <p float="left">
   <img src="https://i.ibb.co/Q8Wtw62/Screenshot-1584263003.png" width=200 />
@@ -10,7 +10,7 @@ Story view for apps with stories.
   <img src="https://i.ibb.co/NrLSbZv/Screenshot-1584263018.png" width=200 />
 </p>
 
-🍟 Watch video demo here: [story_view demo](https://youtu.be/yHAVCsWEKQE)
+🍟 Watch video demo here: [flutter_story_view demo](https://youtu.be/yHAVCsWEKQE)
 
 👨‍🚀 Demo project here: [storyexample](https://github.com/blackmann/storyexample.git)
 
@@ -34,14 +34,14 @@ And useful callback to perform meta functionalities including vertical swipe ges
 
 # Installation
 
-To use this plugin, add `story_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `flutter_story_view` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 # Usage
 
 Import the package into your code
 
 ```dart
-import "package:story_view/story_view.dart";
+import "package:flutter_story_view/flutter_story_view.dart";
 ```
 
 Look inside `examples/example.dart` on how to use this library. You can copy
@@ -49,7 +49,7 @@ and paste the code into your `main.dart` and run to have a quick look.
 
 ## Basics
 
-Use [`StoryView`](https://pub.dev/documentation/story_view/latest/story_view/StoryView-class.html) to add stories to screen or view heirarchy. `StoryView` requires a list of [`StoryItem`](https://pub.dev/documentation/story_view/latest/story_view/StoryItem-class.html), each of which describes the view to be displayed on each story page, duration and so forth. This gives you the freedom to customize each page of the story.
+Use [`StoryView`](https://pub.dev/documentation/flutter_story_view/latest/flutter_story_view/StoryView-class.html) to add stories to screen or view heirarchy. `StoryView` requires a list of [`StoryItem`](https://pub.dev/documentation/flutter_story_view/latest/flutter_story_view/StoryItem-class.html), each of which describes the view to be displayed on each story page, duration and so forth. This gives you the freedom to customize each page of the story.
 
 There are shorthands provided to create common pages.
 
@@ -66,7 +66,7 @@ or `Column`
 
 ### Story controller, loaders and GIF support
 
-While images load, it'll be a better experience to pause the stories until it's done. To achieve this effect, create a global instance of [`StoryController`](https://pub.dev/documentation/story_view/latest/story_controller/StoryController-class.html) and use the shorthand `StoryItem.pageImage` or `StoryItem.inlineImage` while passing the same controller instance to it.
+While images load, it'll be a better experience to pause the stories until it's done. To achieve this effect, create a global instance of [`StoryController`](https://pub.dev/documentation/flutter_story_view/latest/story_controller/StoryController-class.html) and use the shorthand `StoryItem.pageImage` or `StoryItem.inlineImage` while passing the same controller instance to it.
 
 ```dart
 ...
@@ -104,4 +104,4 @@ Widget build(context) {
 
 ## Docs
 
-Find docs from here: [pub.dev/story_view](https://pub.dev/documentation/story_view/latest/)
+Find docs from here: [pub.dev/flutter_story_view](https://pub.dev/documentation/flutter_story_view/latest/)
