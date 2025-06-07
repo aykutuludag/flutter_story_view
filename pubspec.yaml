@@ -12,6 +12,7 @@ dependencies:
   flutter_cache_manager: ^3.4.1
   rxdart: ^0.28.0
   video_player: ^2.10.0
+  collection: ^1.19.1
 
 dev_dependencies:
   flutter_test:
